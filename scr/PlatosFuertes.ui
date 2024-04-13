@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1064</width>
+    <height>738</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TEC EATS - Entradas</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(203, 203, 203);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="PF6A">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>590</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PF3A">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>370</y>
+      <width>1071</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF1">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>270</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LASANA DE VERDURAS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P6">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>560</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="PF1C">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PF7A">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>590</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pf1/PF1.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Entradas">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>140</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pf2/PF2.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="PF6C">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>590</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>410</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pf8/PF8.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>1071</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF3">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>270</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ARROZ CON ATUN</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>290</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>290</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>410</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pf7/PF7.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>410</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pf6/PF6.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF7">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>540</y>
+      <width>301</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ARROZ CON MAIZ DULCE, QUESO Y HUEVO FRITO</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="PF7C">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>590</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="PF8C">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>590</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="PF2C">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>290</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancel">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>640</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+border-color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>CANCELAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PF8A">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>590</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="PF3C">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF6">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>540</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ARROZ CON CERDO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P7">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>560</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>140</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pf3/PF3.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>270</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ARROZ CON ALMENDRAS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PF1A">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PF2A">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>1061</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(221, 156, 18)</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Estos Son los Platos Fuertes Disponibles&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P8">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>560</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF8">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>540</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CAMARONES AL COCO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF9">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>540</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CHULETAS CON SALSA DE MOSTAZA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF4">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>270</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ARROZ CON CAMARON Y CANGREJO</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="PF5C">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P5">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>290</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PF4A">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>140</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pf5/PF5.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Entradas_2">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>140</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pf4/PF4.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P4">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>290</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PF10A">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>590</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PF9A">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>590</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P9">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>560</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="PF4C">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P10">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>560</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF5">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>270</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ARROZ CON CAMARONES</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>410</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pf10/PF10.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PF5A">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="PF9C">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>590</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PF10">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>540</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>COSTILLITAS AL HORNO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>410</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pf9/PF9.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="PF10C">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>590</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="PF1.qrc"/>
+  <include location="PF2.qrc"/>
+  <include location="PF3.qrc"/>
+  <include location="PF4.qrc"/>
+  <include location="PF5.qrc"/>
+  <include location="PF6.qrc"/>
+  <include location="PF7.qrc"/>
+  <include location="PF8.qrc"/>
+  <include location="PF9.qrc"/>
+  <include location="PF10.qrc"/>
+ </resources>
+ <connections/>
+</ui>

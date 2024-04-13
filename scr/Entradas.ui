@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>627</width>
+    <height>732</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TEC EATS - Entradas</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(203, 203, 203);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="E4A">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>590</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E3A">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>370</y>
+      <width>611</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="E1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>270</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CALDO DE POLLO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P4">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>560</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="E1C">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E5A">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>590</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/e1/E1.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Entradas">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>140</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/e2/E2.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="E4C">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>590</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>410</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/e6/E6.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>641</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="E3">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>270</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CREMA AYOTE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>290</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>290</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>410</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/e5/E5.JPG);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>410</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/e4/E4.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="E5">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>540</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CREMA MAIZ</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="E5C">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>590</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="E6C">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>590</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="E2C">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>290</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancel">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>640</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+border-color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>CANCELAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E6A">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>590</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="E3C">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="E4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>540</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CREMA HONGOS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P5">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>560</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>140</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/e3/E3.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="E2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>270</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CONSOME</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E1A">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E2A">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>641</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(221, 156, 18)</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Estas Son las Entradas Disponibles&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P6">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>560</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="E6">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>540</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ENSALADA DE CAMARON Y  ADEREZO</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="E1.qrc"/>
+  <include location="E2.qrc"/>
+  <include location="E3.qrc"/>
+  <include location="E4.qrc"/>
+  <include location="E5.qrc"/>
+  <include location="E6.qrc"/>
+ </resources>
+ <connections/>
+</ui>

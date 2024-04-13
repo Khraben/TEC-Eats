@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Bebidas</class>
+ <widget class="QMainWindow" name="Bebidas">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>603</width>
+    <height>722</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TEC EATS - Bebidas</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(203, 203, 203);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/b1/B1.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>140</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/b2/B2.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>140</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/b3/B3.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>410</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/b4/B4.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>410</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/b5/B5.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>410</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/b6/B6.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="B1C">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="B2C">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="B3C">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="B4C">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>590</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="B5C">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>590</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="B6C">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>590</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B1A">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B2A">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B3A">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B4A">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>590</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B5A">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>590</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B6A">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>590</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>611</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>601</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(221, 156, 18)</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Estas Son las Bebidas Disponibles&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>370</y>
+      <width>611</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancel">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>640</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+border-color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>CANCELAR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>270</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AGUA CON GAS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>270</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AGUA SIN GAS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B3">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>270</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CERVEZA BOHEMIA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>540</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CERVEZA IMPERIAL ULTRA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B5">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>540</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CERVEZA PILSEN</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B6">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>540</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CERVEZA IMPERIAL</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>290</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>290</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P3">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>290</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P4">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>560</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P5">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>560</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="P6">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>560</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="B1.qrc"/>
+  <include location="B5.qrc"/>
+  <include location="B6.qrc"/>
+  <include location="B4.qrc"/>
+  <include location="B3.qrc"/>
+  <include location="B2.qrc"/>
+ </resources>
+ <connections/>
+</ui>
